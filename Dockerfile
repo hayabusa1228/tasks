@@ -22,4 +22,4 @@ COPY . ./app
 
 WORKDIR /app
 
-# RUN poetry install --no-interaction
+RUN poetry install --no-interaction
