@@ -4,3 +4,11 @@ def test_add():
 
 def test_minus():
     assert 1 - 1 == 0
+
+
+def test_mutiply():
+    assert 1 * 6 == 6
+
+
+def test_divide():
+    assert 6 / 2 == 3
