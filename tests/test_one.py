@@ -8,3 +8,7 @@ def test_minus():
 
 def test_mutiply():
     assert 1 * 6 == 6
+
+
+def test_divide():
+    assert 6 / 2 == 3
