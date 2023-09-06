@@ -26,7 +26,7 @@ jobs:
       - name: Run Tests
         run: |
           docker-compose up -d --build
-          docker-compose exec -T pytest-app poetry run pytest  --cov=./src --cov-report=xml
+          docker-compose exec -T task poetry run pytest  --cov=./src --cov-report=xml
       - name: Upload coverage to Codecov
         # 上記のstepsが全て完了した場合にcodecovへupload
         # 今回はpublic repositoryのためKEYは不要だが、privateなら必要なので注意
