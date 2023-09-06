@@ -1,3 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/hayabusa1228/tasks/badge.svg?branch=develop)](https://coveralls.io/github/hayabusa1228/tasks?branch=develop)
+[![unit-test](https://github.com/hayabusa1228/tasks/actions/workflows/unit-test.yml/badge.svg)](https://github.com/hayabusa1228/tasks/actions/workflows/unit-test.yml)
+
 
 ## CI/CD practice
